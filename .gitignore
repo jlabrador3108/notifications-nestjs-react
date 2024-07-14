@@ -1,0 +1,70 @@
+# compiled output
+/notifications-engine/dist
+//notifications-engine/node_modules
+//notifications-engine/build
+
+# Logs
+/notifications-engine/logs
+/notifications-engine/*.log
+/notifications-engine/npm-debug.log*
+/notifications-engine/pnpm-debug.log*
+/notifications-engine/yarn-debug.log*
+/notifications-engine/yarn-error.log*
+/notifications-engine/lerna-debug.log*
+
+# OS
+/notifications-engine/.DS_Store
+
+# Tests
+/notifications-engine//coverage
+/notifications-engine//.nyc_output
+
+# IDEs and editors
+/notifications-engine//.idea
+/notifications-engine/.project
+/notifications-engine/.classpath
+/notifications-engine/.c9/
+/notifications-engine/*.launch
+/notifications-engine/.settings/
+/notifications-engine/*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dotenv environment variable files
+/notifications-engine/.env.development.local
+/notifications-engine/.env.test.local
+/notifications-engine/.env.production.local
+/notifications-engine/.env.local
+
+# temp directory
+/notifications-engine/.temp
+/notifications-engine/.tmp
+
+# Runtime data
+/notifications-engine/pids
+/notifications-engine/*.pid
+/notifications-engine/*.seed
+/notifications-engine/*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+
+# Logs
+/notifications-front/logs
+/notifications-front/*.log
+/notifications-front/npm-debug.log*
+/notifications-front/yarn-debug.log*
+/notifications-front/yarn-error.log*
+/notifications-front/pnpm-debug.log*
+/notifications-front/lerna-debug.log*
+
+/notifications-front/node_modules
+/notifications-front/dist
+/notifications-front/dist-ssr
+/notifications-front/*.local
